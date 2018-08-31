@@ -46,15 +46,18 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	align-items: flex-start;
 }
 
-.bloc_menustitre{
+.bloc_lesmenus h4{
 	text-align: center;
-	display: flex;
-	flex-direction: row;
 	font-weight: bold;
 	font-size: 1em;
-	justify-content: space-around;
+}
+
+.bloc_lesmenus p{
+	margin-left: 1em;
+	margin-right: 1em;
 }
 
 

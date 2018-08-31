@@ -1,0 +1,48 @@
+/*resolution à finir*/
+
+@media screen and (max-width:1200px){
+
+	/*header*/
+
+	.header{
+		background-image: url(img/header1200.jpg);
+		color: rgb(210,210,210);
+	}
+
+	.header a{
+		color: rgb(230,230,230);
+	}
+
+	.header a:hover{
+		color: rgb(150,150,150);
+	}
+
+	/*navigation*/
+
+	.bloc_navigation ul{
+		justify-content: space-around;
+		flex-direction: column;
+	}
+
+	/*section*/
+	
+	.bloc_first{
+		background-image: url(img/salade1200.jpg);
+	}
+
+	.bloc_lesmenus{
+		flex-direction: column;
+	}
+
+	.button{
+ 	   margin-left: 38%; /*c'est le seul moyen qui fonctionne pour centrer mon <button>*/
+	}
+
+	/*footer*/
+
+	.footer{
+		margin-top: 1.2em;
+		flex-direction: column;
+		text-align: center;
+	}
+}
